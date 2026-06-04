@@ -1,0 +1,27 @@
+NovaTech Solutions - New Employee Onboarding
+
+Week 1:
+- Day 1: Receive laptop and access credentials from IT. Complete security awareness training (mandatory, 2 hours).
+- Day 2: Meet your direct manager and team. Review your 30-60-90 day plan.
+- Day 3-5: Shadow a senior team member. Get access to all relevant systems (HR portal, NovaTech Workspace, GitHub org, Slack).
+
+System Access Checklist:
+- NovaTech Workspace (hr.novatech.io will send invite)
+- GitHub organization (request via your manager)
+- Slack workspace: novatech.slack.com
+- Google Workspace (email and Drive)
+- 1Password team vault for shared credentials
+
+Probation Period:
+All new employees have a 3-month probation period. A formal review is held at the end of month 3.
+Early confirmation is possible if performance criteria are met. During probation, the notice period is 2 weeks on both sides.
+
+Equipment Policy:
+NovaTech provides a MacBook Pro (M-series) or equivalent for all employees.
+You may request peripherals (monitor, keyboard, mouse) through the IT portal within your first 30 days.
+Equipment remains company property.
+
+Key Contacts:
+- IT issues: it@novatech.io
+- HR questions: hr@novatech.io
+- Office manager: office@novatech.io

@@ -1,0 +1,20 @@
+NovaTech Solutions - Frequently Asked Questions
+
+Q: What does NovaTech Solutions do?
+A: NovaTech Solutions is a B2B software company that builds cloud-based project management and team collaboration tools for mid-size engineering teams.
+
+Q: How do I reset my password?
+A: Go to the login page and click "Forgot Password". Enter your company email and you will receive a reset link within 5 minutes.
+If you don't receive it, check your spam folder or contact support@novatech.io.
+
+Q: What are your support hours?
+A: Our support team is available Monday to Friday, 9am to 6pm CET. For critical production issues,
+we have 24/7 emergency support via support@novatech.io with "URGENT" in the subject line.
+
+Q: Is NovaTech's platform available on mobile?
+A: Yes. NovaTech has iOS and Android apps available. They support core features including task management, notifications, and document viewing.
+Full editing is available on desktop.
+
+Q: How do I invite a new team member?
+A: Go to Settings > Team > Invite Member. Enter their email and select their role (Viewer, Editor, or Admin).
+They will receive an invitation email valid for 48 hours.

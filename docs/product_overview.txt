@@ -1,0 +1,26 @@
+NovaTech Solutions - Product Overview
+
+Core Product: NovaTech Workspace
+NovaTech Workspace is a project management platform designed for engineering and product teams.
+It combines task tracking, sprint planning, and team documentation in a single interface.
+
+Key Features:
+- Kanban and Gantt views for project tracking
+- Integrated code review request linking (GitHub and GitLab)
+- Team wikis and knowledge base per project
+- Automated sprint reports sent every Friday
+- Role-based access control (Viewer, Editor, Admin)
+- SSO support via Google, Microsoft, and Okta
+
+Pricing Plans:
+- Starter: Free, up to 5 users, 3 projects
+- Growth: 12 EUR per user per month, unlimited projects, priority support
+- Enterprise: Custom pricing, dedicated infrastructure, SLA guarantee, onboarding support
+
+Integrations:
+NovaTech Workspace integrates with Slack, Jira, GitHub, GitLab, Figma, and Google Drive.
+API access is available on Growth and Enterprise plans.
+
+Security:
+All data is encrypted at rest (AES-256) and in transit (TLS 1.3). NovaTech is SOC 2 Type II certified.
+Data residency options are available for Enterprise customers in the EU and US.

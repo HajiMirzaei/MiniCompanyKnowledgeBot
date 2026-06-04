@@ -1,0 +1,25 @@
+NovaTech Solutions - Support Guide
+
+How to Contact Support:
+- Email: support@novatech.io
+- Live chat: Available inside the NovaTech Workspace dashboard (bottom right corner)
+- Emergency line: For critical production outages, email support@novatech.io with "URGENT" in the subject
+
+Response Time SLAs:
+- Starter plan: Response within 2 business days
+- Growth plan: Response within 8 business hours
+- Enterprise plan: Response within 1 hour, 24/7
+
+Before Contacting Support:
+1. Check the status page at status.novatech.io for known outages
+2. Search the help center at help.novatech.io
+3. Restart the app or clear your browser cache
+4. If the issue is with an integration, check that your API token has not expired
+
+Submitting a Bug Report:
+Include the following in your report: your account email, the browser or app version, steps to reproduce the issue,
+and a screenshot or screen recording if possible. Bug reports without reproduction steps may be deprioritized.
+
+Escalation:
+If your issue has not been resolved within the SLA window, reply to your existing ticket with "ESCALATE" in the subject.
+Your ticket will be assigned to a senior support engineer.
