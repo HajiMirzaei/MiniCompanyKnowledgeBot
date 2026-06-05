@@ -101,15 +101,7 @@ In `appsettings.json`, add a `KnowledgeBot` section with:
 
 Bind this section to `KnowledgeBotOptions` using the Options pattern.
 
-### TASK-11 — Write Agentic Brain Files
-Populate all files inside `agentic-brain/`:
-- `PROJECT_BRIEF.md` — problem, solution, features, tech stack, verification
-- `AGENT_CONTEXT.md` — architecture summary for AI coding assistants
-- `MEMORY.md` — key design decisions and rationale
-- `TASKS.md` (this file)
-- `EVALS.md` — 6 evaluation questions with pass conditions
-
-### TASK-12 — Write README.md
+### TASK-11 — Write README.md
 Write the top-level `README.md` covering:
 - What the project does and why it was built
 - How to clone and run it locally (`dotnet run`)
@@ -117,7 +109,7 @@ Write the top-level `README.md` covering:
 - Folder structure explained
 - How Claude Code was used during development
 
-### TASK-13 — Add Unit Tests Project
+### TASK-12 — Add Unit Tests Project
 Create a `tests/KnowledgeBot.Tests/` xUnit project (already scaffolded in TASK-03). Write unit tests using in-memory `CompanyDocument` instances — no disk I/O:
 - `TfIdfRetrieverTests`: given a known 3-document corpus, assert the correct document ranks first for a targeted query; assert multi-document ranking order
 - `AnswerComposerTests`: score above `HighConfidenceThreshold` → `"high"`; score between Medium and High → `"medium"`; score below `FallbackThreshold` → fallback message returned
@@ -127,14 +119,14 @@ Create a `tests/KnowledgeBot.Tests/` xUnit project (already scaffolded in TASK-0
 
 ## 🔲 Remaining / Nice to Have
 
-### TASK-14 — Improve Sentence Extraction in AnswerComposer
+### TASK-13 — Improve Sentence Extraction in AnswerComposer
 Currently the composer picks sentences by simple term frequency. A future improvement is to score sentences using the same TF-IDF weights already computed during retrieval, so the answer is guaranteed to use the highest-signal text from each document.
 
-### TASK-15 — Add Pagination / Multi-turn Support
+### TASK-14 — Add Pagination / Multi-turn Support
 Add an optional `context` field to `QueryRequest` so callers can pass in the previous question and answer. The retriever would then combine current query terms with terms from the prior context, enabling basic multi-turn conversation flow.
 
-### TASK-16 — Dockerize the Application
+### TASK-15 — Dockerize the Application
 Add a `Dockerfile` and `docker-compose.yml` so the app can be run in a container with a single command. The `docs/` folder should be mounted as a volume so knowledge files can be updated without rebuilding the image.
 
-### TASK-17 — Add Request Logging Middleware
+### TASK-16 — Add Request Logging Middleware
 Add a simple logger call that records each incoming query, which documents were retrieved, the confidence level, and the response time in milliseconds.
