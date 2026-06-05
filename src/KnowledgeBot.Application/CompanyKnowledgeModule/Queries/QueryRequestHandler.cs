@@ -18,10 +18,9 @@ public class QueryRequestHandler : IRequestHandler<QueryRequest, QueryResponse>
         _options = options.Value;
     }
 
-    public Task<QueryResponse> Handle(QueryRequest request, CancellationToken cancellationToken)
+    public async Task<QueryResponse> Handle(QueryRequest request, CancellationToken cancellationToken)
     {
-        var docs = _retriever.Retrieve(request.Question, _options.TopDocuments);
-        var response = _composer.Compose(request.Question, docs);
-        return Task.FromResult(response);
+        var docs = await _retriever.RetrieveAsync(request.Question, _options.TopDocuments);
+        return _composer.Compose(request.Question, docs);
     }
 }
