@@ -39,7 +39,9 @@ public class DocumentLoader : IDocumentLoader
 
     private async Task<IReadOnlyList<CompanyDocument>> LoadFromDiskAsync()
     {
-        var docsPath = Path.GetFullPath(_options.DocsPath);
+        var docsPath = Path.IsPathRooted(_options.DocsPath)
+            ? _options.DocsPath
+            : Path.GetFullPath(_options.DocsPath, AppContext.BaseDirectory);
         if (!Directory.Exists(docsPath))
             throw new DirectoryNotFoundException($"Docs folder not found at resolved path: {docsPath}");
 
